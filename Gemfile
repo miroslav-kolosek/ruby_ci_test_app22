@@ -23,7 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
-gem 'redis-rails'
+# gem 'redis-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -48,8 +48,6 @@ gem 'rubocop-thread_safety', require: false
 gem 'rubocop-performance', require: false
 # RSpec-specific analysis
 gem 'rubocop-rspec', require: false
-
-gem 'redis-rails'
 
 gem 'elasticsearch', "5.0.5"
 gem "elasticsearch-model", "5.1.0"
